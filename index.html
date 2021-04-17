@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Grade Calcuator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <div class="content">
+          <h1>Student Grade Calcuator</h1>
+        </div>
+        <form action="">
+          <input type="text" placeholder="Maths" id="maths" required />
+          <input type="text" placeholder="Science" id="science" required />
+          <input type="text" placeholder="English" id="english" required />
+          <input type="text" placeholder="Hindi" id="hindi" required />
+          <a href="#"
+            ><input type="submit" onclick="Calc()" value="Calculate"
+          /></a>
+        </form>
+        <div class="detail">
+          <p id="showData"></p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
