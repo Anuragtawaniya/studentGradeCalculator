@@ -22,17 +22,3 @@ const Calc = () => {
     document.getElementById('showData').innerHTML = `OUT OF 400 YOUR TOTAL IS ${total}<br>PERCENTAGE IS ${per}%<br>GRADES ${grade}`;
 }
 
-// let s = "  anurag";
-// console.log(s)
-// console.log(s.toUpperCase())
-// console.log(s.toLowerCase())
-// console.log(s.charAt(0))
-// console.log(s.indexOf('a'))
-// console.log(s.lastIndexOf('a'))
-// console.log(s.substring(0,4))
-// console.log(s.startsWith('a'))
-// console.log(s.endsWith('g'))
-// console.log(s.split())
-// console.log(s.trim())
-// let s1 = "Tawaniya"
-// console.log(s.concat(s1))
